@@ -1,6 +1,7 @@
 #! /bin/bash
 
 # installing npm and nginx
+sudo apt update
 sudo apt install -y nginx npm
 
 # changing directory & updating the default config file
