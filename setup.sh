@@ -6,7 +6,7 @@ sudo apt install nginx npm
 # changing directory & updating the default config file
 cd /etc/nginx/sites-available
 rm default
-curl <url> -o default
+curl https://raw.githubusercontent.com/GohilDeepak009/basic_node_server_setup/main/default -o default
 
 #creating a node server
 cd
