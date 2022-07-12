@@ -1,6 +1,5 @@
 #! /bin/bash
 
-
 # installing npm and nginx
 sudo apt install nginx npm
 
@@ -13,7 +12,10 @@ curl <url> -o default
 cd
 mkdir server
 cd server
-curl <url> -o index.js
+curl https://raw.githubusercontent.com/GohilDeepak009/basic_node_server_setup/main/http_node_server.js -o index.js
 
 #starting nginx
 sudo /etc/init.d/nginx start
+
+#staring node server
+node index.js
