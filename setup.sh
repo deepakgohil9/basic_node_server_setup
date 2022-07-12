@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # installing npm and nginx
-sudo apt install nginx npm
+sudo apt install -y nginx npm
 
 # changing directory & updating the default config file
 cd /etc/nginx/sites-available
