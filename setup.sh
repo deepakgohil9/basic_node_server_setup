@@ -18,5 +18,9 @@ curl https://raw.githubusercontent.com/GohilDeepak009/basic_node_server_setup/ma
 #starting nginx
 sudo /etc/init.d/nginx start
 
+#printing ip
+echo "Your IP is: "
+hostname -I
+
 #staring node server
 node index.js
